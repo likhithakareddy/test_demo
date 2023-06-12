@@ -1,0 +1,12 @@
+name: Cube Build and Push Image to ECR
+
+on:
+push:
+ branches:
+  -'main'
+paths:
+ - '.github/workflows/cubejs-build-and-push-to-ecr.yml'
+jobs:
+ call-workflow:
+  uses:likhithakareddy/test_demo/.github/workflows/Image-build-and-push-to-ecr@main
+  
