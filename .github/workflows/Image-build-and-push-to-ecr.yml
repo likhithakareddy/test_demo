@@ -9,4 +9,4 @@ on:
   
 jobs:
   call-workflow:
-    uses: likhithakareddy/test_demo/.github/workflows/Image-build-and-push-to-ecr.yaml@main
+    uses: likhithakareddy/test_demo/.github/workflows/Image-build-and-push-to-ecr.yml@main
