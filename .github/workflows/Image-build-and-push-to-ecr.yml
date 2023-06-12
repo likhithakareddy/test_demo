@@ -1,0 +1,12 @@
+name: Build and Push Image to ECR
+
+ 
+
+on:
+  push:
+    branches:
+      - 'main'
+  
+jobs:
+  call-workflow:
+    uses: XSIGHTME/test_demo/.github/workflows/Image-build-and-push-to-ecr@main
